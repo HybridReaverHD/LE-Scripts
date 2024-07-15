@@ -1,5 +1,5 @@
 
-written in python, PIL for screen capture and crop + grayscale + threshold and pytesseract or image to text. pyautogui will trigger the keyboard.
+written in python, PIL for screen capture and crop + grayscale + threshold and pytesseract for image to text. pyautogui will trigger the keyboard.
 
 Script will press the Potion butten ( 1 ) when below specific hp threshhold
 
