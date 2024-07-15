@@ -88,7 +88,7 @@ def trigger_potion():
 
 
 def save_error(cv2_img: Image, name: str, count: int):
-    jpg_path = f"C:\\Users\\KrampusHD\\Pictures\\le_err_{count}_{name}.jpg"
+    jpg_path = f"C:\\Users\\user\\Pictures\\le_err_{count}_{name}.jpg"
     pil_img = convert_from_cv2_to_image(cv2_img)
     pil_img.save(jpg_path)
 
@@ -108,7 +108,7 @@ def main():
                 save_error(thresh, "thresh", err_count)
                 save_error(gray, "gray", err_count)
                 save_error(image, "image", err_count)
-                print(f"ERROR: C:\\Users\\KrampusHD\\Pictures\\le_err_{err_count}_* {hp_str}")
+                print(f"ERROR: C:\\Users\\user\\Pictures\\le_err_{err_count}_* {hp_str}")
 
                 err_count += 1
             continue
